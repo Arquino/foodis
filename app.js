@@ -8,7 +8,8 @@ const restoRoute = require('./routes/resto');
 
 // COnnexion  à mongo db Atlas
 const mongoose = require('mongoose');
-// Atlas mongodb+srv://Arnaud_Mink:mmeaddmongo@cluster0-8atc8.mongodb.net/test?retryWrites=true&w=majority
+// Connexion à la base de donnée Atlas
+// Atlas mongodb+srv://Arnaud_Mink:motdepass@cluster.mongodb.net/test?retryWrites=true&w=majority
 //  Localhost: mongodb://localhost:27017/FoodIS
 mongoose.connect('mongodb+srv://Arnaud_Mink:mmeaddmongo@cluster0-8atc8.mongodb.net/test?retryWrites=true&w=majority',
   { useNewUrlParser: true,
